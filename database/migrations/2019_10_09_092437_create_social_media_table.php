@@ -1,0 +1,38 @@
+<?php
+
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
+
+class CreateSocialMediaTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('social_media', function (Blueprint $table) {
+            $table->bigIncrements('id');
+            $table->string('facebook')->nullable();
+            $table->string('twitter')->nullable();
+            $table->string('gplus')->nullable();
+            $table->string('linkedin')->nullable();
+            $table->string('instagram')->nullable();
+            $table->string('pinterest')->nullable();
+            $table->string('youtube')->nullable();
+            $table->string('whatsapp')->nullable();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('social_media');
+    }
+}

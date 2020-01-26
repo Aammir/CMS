@@ -1,0 +1,41 @@
+1. set up
+2. select template
+3. user relationships with posts
+4. admin section 
+	1. stats
+	2. users
+	3. posts
+		1. posts
+		2. taxonomies
+	4. pages
+	5. comments 
+	6. Settings
+		1. Home section
+			1. website logo (site modal)
+			2. website favicon (site modal)
+			3. home posts  (site modal)
+			4. how many posts on home page (site modal)
+		2. Website Contact Information
+			1. social media 
+			2. map (site modal)
+			3. address (site modal)
+			4. email (site modal)
+			5. phonenumber (site modal)
+			 
+		3. Footer & bottom section (site modal)
+			1. bottom section text  | copyright & site info  (site modal)
+			2. about section text (site modal)
+			3. newsletter text(5) (site modal)
+			4. mid footer show?, footer sections show, hide (site modal)
+		4. Blog Page Settings
+			1. how many posts per page (site modal)
+		5. How Many Categories to display on navs(save in site model)	
+5. only auth users access admin panel
+6. test auth system
+7. update add user name
+
+NOTES:
+1. New pages will automatically add nav items
+2. New post mention if home main item or not
+3. Tags are automatic
+4.admin picked posts bottom setcion  (with every post option)

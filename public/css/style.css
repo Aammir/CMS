@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 28, 2019, 1:46:02 AM
+    Author     : Joe
+*/
+.header__logo img {
+    font-size: 28px;
+    color: #FFF !important;
+}
+.pagination {
+    margin: 3rem auto;
+    text-align: center;
+}.pagination li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}.pagination li a {
+    font-family: "metropolis-bold", sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    display: inline-block;
+    padding: .6rem 1.2rem;
+    height: 3.6rem;
+    margin: .3rem .15rem;
+    color: #151515;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}.active span {
+    background-color: #151515;
+    color: #FFFFFF;
+	font-size: 1.5rem;
+    line-height: 2.4rem;
+    display: inline-block;
+    padding: .6rem 1.2rem;
+    height: 3.6rem;
+    margin: .3rem .15rem;
+    border-radius: 3px;
+-webkit-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+.pagination li a:hover, .pagination li span:hover{background: #c4c4c4;}
+.pagination li:first-child span, .pagination li:last-child span,
+.pagination li:first-child a, .pagination li:last-child a{
+    background:#FFF;
+    display: block;
+background-color: #FFFFFF;
+background-repeat: no-repeat;
+background-size: 18px 12px;
+background-position: center;
+height: 4.8rem;
+width: 4.8rem;
+line-height: 4.8rem;
+padding: 0;
+margin: -10px 35px;
+border-radius: 50%;
+box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+font: 0/0 a;
+text-shadow: none;
+color: #000 !important;
+-webkit-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+top: 50% !important;
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+}
+.pagination li:first-child span:hover, .pagination li:last-child span:hover,
+.pagination li:first-child a:hover, .pagination li:last-child a:hover{
+    background: #000;
+}
+.pagination li:first-child span, .pagination li:first-child a{background-image: url("../images/icons/icon-arrow-left.svg");}
+.pagination li:first-child span:hover, .pagination li:first-child a:hover{background-image: url("../images/icons/icon-arrow-left-w.svg");background-repeat:no-repeat !important;background-position: 50% !important;}
+.pagination li:last-child span, .pagination li:last-child a{background-image: url("../images/icons/icon-arrow-right.svg");}
+.pagination li:last-child span:hover, .pagination li:last-child a:hover{background-image: url("../images/icons/icon-arrow-right-w.svg");background-repeat:no-repeat !important;background-position: 50% !important;}
+
+.s-content__next{text-align: right;}
+
+.feat-img{margin:0 auto;max-width: 100%;display: block;}
